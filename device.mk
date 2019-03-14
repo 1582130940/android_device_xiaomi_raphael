@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    BluetoothResCommon
+    libbthost_if
 
 # Camera
 PRODUCT_PACKAGES += \
