@@ -386,6 +386,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
+    wifi-mac-generator \
     wpa_supplicant \
     wpa_supplicant.conf
 
