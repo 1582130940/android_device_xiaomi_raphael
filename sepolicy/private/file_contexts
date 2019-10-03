@@ -22,4 +22,4 @@
 /system/bin/hw/vendor\.lineage\.camera\.motor@1.0-service\.xiaomi_raphael u:object_r:hal_lineage_camera_motor_xiaomi_raphael_exec:s0
 
 # Modules
-/system/lib/modules/wlan\.ko    u:object_r:vendor_file:s0
+/system/lib/modules/qca_cld3_wlan\.ko    u:object_r:vendor_file:s0
