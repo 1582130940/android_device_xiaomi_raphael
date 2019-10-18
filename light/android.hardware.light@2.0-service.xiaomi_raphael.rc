@@ -1,9 +1,20 @@
 on boot
+    # Backlight
+    chown system system /sys/class/backlight/panel0-backlight/brightness
+    chown system system /sys/class/backlight/panel0-backlight/max_brightness
+
+    chmod 644 /sys/class/backlight/panel0-backlight/brightness
+    chmod 644 /sys/class/backlight/panel0-backlight/max_brightness
+
     # Real notification light
     chown system system /sys/class/leds/green/breath
     chown system system /sys/class/leds/green/brightness
     chown system system /sys/class/leds/green/delay_off
     chown system system /sys/class/leds/green/delay_on
+    chown system system /sys/class/leds/green/lo_idx
+    chown system system /sys/class/leds/green/lut_pattern
+    chown system system /sys/class/leds/green/pause_lo_count
+    chown system system /sys/class/leds/green/step_ms
 
     chmod 660 /sys/class/leds/green/breath
     chmod 660 /sys/class/leds/green/delay_off
@@ -14,6 +25,10 @@ on boot
     chown system system /sys/class/leds/blue/brightness
     chown system system /sys/class/leds/blue/delay_off
     chown system system /sys/class/leds/blue/delay_on
+    chown system system /sys/class/leds/blue/lo_idx
+    chown system system /sys/class/leds/blue/lut_pattern
+    chown system system /sys/class/leds/blue/step_ms
+    chown system system /sys/class/leds/blue/pause_lo_count
 
     chmod 660 /sys/class/leds/blue/breath
     chmod 660 /sys/class/leds/blue/delay_off
