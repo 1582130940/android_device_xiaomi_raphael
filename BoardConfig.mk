@@ -1,0 +1,97 @@
+#
+# Copyright (C) 2018-2019 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+DEVICE_PATH := device/xiaomi/raphael
+
+# Architecture
+TARGET_ARCH := arm64
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_ABI := arm64-v8a
+TARGET_CPU_ABI2 :=
+TARGET_CPU_VARIANT := generic
+
+TARGET_2ND_ARCH := arm
+TARGET_2ND_ARCH_VARIANT := armv8-a
+TARGET_2ND_CPU_ABI := armeabi-v7a
+TARGET_2ND_CPU_ABI2 := armeabi
+TARGET_2ND_CPU_VARIANT := generic
+
+TARGET_USES_64_BIT_BINDER := true
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
+
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := sm8150
+TARGET_NO_BOOTLOADER := true
+TARGET_USES_UEFI := true
+
+# Kernel
+BOARD_KERNEL_BASE := 0x00000000
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.console=ttyMSM0
+BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image loop.max_part=7 cgroup.memory=nokmem,nosocket androidboot.usbconfigfs=true
+BOARD_KERNEL_CMDLINE += swiotlb=1 androidboot.usbcontroller=a600000.dwc3 service_locator.enable=1
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += androidboot.avb_version=1.0
+BOARD_KERNEL_CMDLINE += androidboot.vbmeta.avb_version=1.0
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+BOARD_KERNEL_PAGESIZE := 4096
+BOARD_KERNEL_TAGS_OFFSET := 0x00000100
+BOARD_RAMDISK_OFFSET := 0x01000000
+TARGET_KERNEL_ARCH := arm64
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage
+
+# Platform
+TARGET_BOARD_PLATFORM := msmnile
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
+
+# Partitions
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_SUPPRESS_SECURE_ERASE := true
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+BOARD_FLASH_BLOCK_SIZE := 262144
+
+BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
+TARGET_USES_MKE2FS := true
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR := vendor
+
+# Recovery
+BOARD_HAS_LARGE_FILESYSTEM := true
+BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+
+# Verified Boot
+BOARD_AVB_ENABLE := true
+
+# TWRP Configuration
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_FBE := true
+TW_INCLUDE_NTFS_3G := true
+TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_FUSE_NTFS := true
+TW_THEME := portrait_hdpi
+TW_MAX_BRIGHTNESS := 2047
+TW_DEFAULT_BRIGHTNESS := 1023
+TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
+TW_EXTRA_LANGUAGES := true
+TW_INPUT_BLACKLIST := "hbtp_vm"
+TARGET_RECOVERY_QCOM_RTC_FIX := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_SCREEN_BLANK_ON_BOOT := true
+TW_IGNORE_MISC_WIPE_DATA := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_USE_TOOLBOX := true
+
+ALLOW_MISSING_DEPENDENCIES := true
+
+# Prevent Anti Rollback
+PLATFORM_SECURITY_PATCH := 2099-12-05
