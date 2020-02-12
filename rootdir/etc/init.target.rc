@@ -251,21 +251,6 @@ service vendor.thermal-engine /vendor/bin/thermal-engine
    socket thermal-send-rule stream 0660 system system
    group root
 
-## imsdatadaemon starts with root and UID will be downgraded to RADIO.
-service vendor.imsqmidaemon /vendor/bin/imsqmidaemon
-    class main
-    user radio
-    socket ims_qmid stream 0660 system radio
-    group radio log diag
-
-# imsdatadaemon starts with root and UID will be downgraded to RADIO.
-service vendor.imsdatadaemon /vendor/bin/imsdatadaemon
-    class main
-    user radio
-    socket ims_datad stream 0660 system radio
-    group radio wifi inet log diag
-    disabled
-
 service vendor.mdm_helper /vendor/bin/mdm_helper
     class core
     group system wakelock
