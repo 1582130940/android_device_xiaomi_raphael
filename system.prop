@@ -12,26 +12,6 @@ ro.vendor.display.sensortype=2
 # prop for amoled panel
 ro.display.type=oled
 
-# displayfeature use poll to monitor backlight brightness
-ro.xiaomi.bl.poll=true
-
-#support night mode 2.0
-ro.eyecare.brightness.threshold=11
-ro.eyecare.brightness.level=5
-ro.hist.brightness.threshold=7
-
-# White Point Calibration
-ro.whitepoint_calibration_enable=false
-
-#Property for display feature histogram
-ro.displayfeature.histogram.enable=true
-
-#Touchfeature
-ro.vendor.touchfeature.gamemode.enable=true
-
-#property for liblight to get dc backlight threshold
-persist.displayfeature.dc_backlight.threshold=610
-
 #
 # system.prop for sdm845
 #
@@ -284,10 +264,6 @@ ro.location.osnlp.region.package=
 #Enable NCS, TOF and HAF
 persist.vendor.camera.enableNCSService=TRUE
 persist.vendor.camera.enableTOFInterface=TRUE
-#system property for displayfeature hidl
-sys.displayfeature_hidl=true
-#system property for HBM mode
-sys.displayfeature.hbm.enable=true
 #system prop for Bluetooth TWS+ feature
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.connect.peer_earbud=true
@@ -298,10 +274,6 @@ persist.camera.sat.fallback.luxindex=310
 persist.camera.sat.fallback.lux.d=50
 #allow update modem profile to satify single ip-type pdp request
 persist.data.profile_update=true
-
-#system prop for dc backlight
-persist.displayfeature.dc_backlight.enable=false
-persist.fod.modified.dc_status=false
 
 persist.sys.job_delay=true
 persist.sys.mcd_config_file=/system/etc/mcd_default.conf

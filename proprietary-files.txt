@@ -52,7 +52,7 @@ vendor/lib64/hw/audio.primary.msmnile.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
-vendor/lib64/libaudio_log_utils
+vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libqtigef.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
@@ -60,7 +60,7 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
-vendor/lib/libaudio_log_utils
+vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libqtigef.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
@@ -379,64 +379,22 @@ vendor/lib64/libhdr_tm.so
 vendor/lib/libhdr_tm.so
 
 # Display (SDM)
-vendor/bin/hw/vendor.qti.hardware.display.allocator-service
-vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib64/hw/gralloc.msmnile.so
-vendor/lib64/hw/hwcomposer.msmnile.so
-vendor/lib64/hw/memtrack.msmnile.so
-vendor/lib64/libclient2slpi.notifier.so
-vendor/lib64/libdisplaydebug.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libqservice.so
 vendor/lib64/libsdedrm.so
-vendor/lib64/libqdMetaData.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libtinyxml2_1.so
-vendor/lib64/vendor.display.config@1.8.so
-vendor/lib64/vendor.qti.hardware.display.allocator@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib/hw/gralloc.msmnile.so
-vendor/lib/hw/hwcomposer.msmnile.so
-vendor/lib/hw/memtrack.msmnile.so
-vendor/lib/libclient2slpi.notifier.so
-vendor/lib/libdisplaydebug.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgralloccore.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdutils.so
 vendor/lib/libqseed3.so
-vendor/lib/libqservice.so
-vendor/lib/libqdMetaData.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-colormgr-algo.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
-vendor/lib/libsdmutils.so
 vendor/lib/libtinyxml2_1.so
-vendor/lib/vendor.display.config@1.8.so
-vendor/lib/vendor.qti.hardware.display.mapper@2.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
 
 # Display Calibration
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
@@ -445,18 +403,6 @@ vendor/etc/qdcm_calib_data_visionox_r66456_fhd_cmd_dsi_panel.xml
 # Display configs
 vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
-
-# Display Feature
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/lib64/hw/displayfeature.default.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/libdrm.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib/hw/displayfeature.default.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib/libdrm.so
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Display Postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -597,37 +543,37 @@ vendor/lib/vendor.qti.gnss@2.1.so
 vendor/lib/vendor.qti.gnss@3.0-service.so
 vendor/lib/vendor.qti.gnss@3.0.so
 
-# Graphics (Adreno)
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libQTapGLES.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libCB.so
-vendor/lib64/libgsl.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libOpenCL.so
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libQTapGLES.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libc2d30_bltlib.so
-vendor/lib/libC2D2.so
-vendor/lib/libCB.so
-vendor/lib/libgsl.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/libOpenCL.so
+# Graphics (Adreno) - from LA.UM.8.9.r1-05500-SM6xx.0
+vendor/lib/egl/eglSubDriverAndroid.so|dbefce0e7c448944f1a7a6a2e14dce86124c14d8
+vendor/lib/egl/libEGL_adreno.so|754343b2f4ebe1e97d18525ba2dbe1ceb435019f
+vendor/lib/egl/libGLESv1_CM_adreno.so|98187b349e1cc581d117b492efac1a027781c6e6
+vendor/lib/egl/libGLESv2_adreno.so|3d5a66a33929ee065079aa9cc31a7e87e2a3fa3c
+vendor/lib/egl/libQTapGLES.so|dcefc25f794e90f66e947624242aed529238a03d
+vendor/lib/egl/libq3dtools_adreno.so|7da3fb44ccde74aa068e051d4ee3ec050ee35cef
+vendor/lib/egl/libq3dtools_esx.so|0fa765fd26f428afeed06bdaa562cca2b1f7468d
+vendor/lib/libC2D2.so|839ee175cc8314aac277a8c8bfe210b0b0866d15
+vendor/lib/libCB.so|a02f91323a3e444a3b58808c0d893ced1f84d4af
+vendor/lib/libOpenCL.so|f6e858a2539644c08f37175d54ebd40cba8c904f
+vendor/lib/libadreno_utils.so|30452f27bb07a977f6eedff4a3e724d692500ed7
+vendor/lib/libc2d30_bltlib.so|b3d4deb176af26b2df7430e18d9dec6c5c1d81bd
+vendor/lib/libgsl.so|148351f249c9410c132a234da7bc32ca94b01249
+vendor/lib/libllvm-glnext.so|b2b9c70c3bca76690cb1916063a573af4ae480eb
+vendor/lib/libllvm-qcom.so|487931013f56eafbd6f35b80ad07b597b3d27e62
+vendor/lib64/egl/eglSubDriverAndroid.so|6bc4fc63631a5abde0ac3d9aa8157d28992099ac
+vendor/lib64/egl/libEGL_adreno.so|a329f8834cba808dc68fb9715962a2bc6aa0ff22
+vendor/lib64/egl/libGLESv1_CM_adreno.so|175be77847e559f7fd1acf5a24aaf9de19683735
+vendor/lib64/egl/libGLESv2_adreno.so|eeab2eb4b5915d89b03e1be985466b6c2086fe87
+vendor/lib64/egl/libQTapGLES.so|0443a2b7dcf53289aa8f5ce624c4153382fd92d5
+vendor/lib64/egl/libq3dtools_adreno.so|6b08e7dce85d3c1ac7568c51a5d430fdd5932b40
+vendor/lib64/egl/libq3dtools_esx.so|baf0893626c8f18b088cfe58c97e7540a686ec21
+vendor/lib64/libC2D2.so|802802ac7ce0bb8bfc6918449a89ec820c6cfd53
+vendor/lib64/libCB.so|ed351ca4fd9173344128e32b1c642bbd361ad8ad
+vendor/lib64/libOpenCL.so|7bb05980eb9e6519fba1f92679e7d7c2809a61d8
+vendor/lib64/libadreno_utils.so|5df876c7ca7b4fa6ab79736f57f7906499bb0f10
+vendor/lib64/libc2d30_bltlib.so|3956f84d78c54aed6431d6c5e0a55eb6336369ab
+vendor/lib64/libgsl.so|19ad4eaba25145d43cbdf9a5917ab1f64879a40c
+vendor/lib64/libllvm-glnext.so|0a43861c4f38a57f3535e625e6c6405ea19f0de0
+vendor/lib64/libllvm-qcom.so|c9dada793286a62134ff0f85e519f9f25e2a2011
 
 # Graphics (Adreno firmware)
 vendor/firmware/a630_gmu.bin
@@ -1140,24 +1086,6 @@ vendor/lib/libsnsdiaglog.so
 vendor/lib/sensors.ssc.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Sensor Service
-lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
-vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
-vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-
 # Snapdragon Computer Vision Engine
 vendor/etc/scve/facereco/gModel.dat
 vendor/lib64/libfastcvopt.so
@@ -1272,11 +1200,8 @@ bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
 -framework/WfdCommon.jar
-lib64/libdisplayconfig.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
-lib64/libqdMetaData.so
-lib64/libqdMetaData.system.so
 lib64/libwfdclient.so
 lib64/libwfdcommonutils.so
 lib64/libwfdconfigutils.so
@@ -1292,11 +1217,8 @@ lib64/libwfduibcsink.so
 lib64/libwfduibcsrcinterface.so
 lib64/libwfduibcsrc.so
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-lib/libdisplayconfig.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
-lib/libqdMetaData.so
-lib/libqdMetaData.system.so
 lib/libwfdaac.so
 lib/libwfdavenhancements.so
 lib/libwfdclient.so
@@ -1324,10 +1246,8 @@ vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/wfdconfig.xml
-vendor/lib64/libdisplayconfig.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
-vendor/lib/libdisplayconfig.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdaac_vendor.so
