@@ -1,4 +1,4 @@
-# ADSP
+# ADSP - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-service.rc
 vendor/lib/libadsp_default_listener.so
@@ -6,7 +6,7 @@ vendor/lib/libadsprpc.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 
-# ADSP modules
+# ADSP modules - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
@@ -30,7 +30,7 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
-# ACDB
+# ACDB - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
@@ -47,7 +47,7 @@ vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
 
-# Audio
+# Audio - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/libadiertac.so
@@ -65,10 +65,10 @@ vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libqtigef.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
-# Audio amplifier
+# Audio amplifier - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/firmware/tfa98xx.cnt
 
-# Audio FX modules
+# Audio FX modules - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
@@ -79,7 +79,7 @@ vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libdirac.so
 vendor/lib64/soundfx/libshoebox.so
 
-# Bluetooth
+# Bluetooth - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 lib64/libbtconfigstore.so
 lib/libbtconfigstore.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -107,7 +107,7 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 
-# Camera
+# Camera - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/remosaic_daemon
 vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_wide.config
@@ -290,10 +290,10 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libXMFD_AgeGender.so
 vendor/lib64/mibokeh_855_opencl.bin
 
-# Camera firmware
+# Camera firmware - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/firmware/CAMERA_ICP.elf
 
-# CDSP
+# CDSP - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/cdsprpcd
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
@@ -309,10 +309,10 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
-# Charger
+# Charger - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hvdcp_opti
 
-# CNE
+# CNE - from LA.UM.8.9.r1-07700-SM6xx.0
 -vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -363,7 +363,7 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
-# Configstore
+# Configstore - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
@@ -374,11 +374,11 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 -vendor/lib64/libplatformconfig.so
 
-# Display (HDR)
+# Display (HDR) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Display (SDM)
+# Display (SDM) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.display.allocator-service
 vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
@@ -438,15 +438,15 @@ vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
 vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
 vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 
-# Display Calibration
+# Display Calibration - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
 vendor/etc/qdcm_calib_data_visionox_r66456_fhd_cmd_dsi_panel.xml
 
-# Display configs
+# Display configs - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
 
-# Display Feature
+# Display Feature - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/lib/hw/displayfeature.default.so
@@ -458,7 +458,7 @@ vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/libdrm.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
-# Display Postprocessing
+# Display Postprocessing - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/bin/ppd
@@ -481,7 +481,7 @@ vendor/lib64/vendor.display.color@1.3.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# DPM
+# DPM - from LA.UM.8.9.r1-07700-SM6xx.0
 framework/tcmclient.jar
 lib64/libdiag_system.so
 product/bin/dpmd
@@ -509,7 +509,7 @@ vendor/lib/libdpmqmihal.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 
-# DRM
+# DRM - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/qseecomd
 vendor/etc/init/qseecomd.rc
 vendor/lib/libcppf.so
@@ -539,7 +539,7 @@ vendor/lib64/libssd.so
 vendor/lib64/libStDrvInt.so
 vendor/lib64/libtzdrmgenprov.so
 
-# ESE
+# ESE - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
@@ -547,7 +547,7 @@ vendor/lib/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
-# Fingerprint
+# Fingerprint - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/hw/fingerprint.goodix_fod.so
@@ -555,13 +555,13 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
 
-# Gatekeeper
+# Gatekeeper - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
-# GPS
+# GPS - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
@@ -597,7 +597,7 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
-# Graphics (Adreno)
+# Graphics (Adreno) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -629,7 +629,7 @@ vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libOpenCL.so
 
-# Graphics (Adreno firmware)
+# Graphics (Adreno firmware) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a640_gmu.bin
@@ -639,11 +639,11 @@ vendor/firmware/a640_zap.b02
 vendor/firmware/a640_zap.elf
 vendor/firmware/a640_zap.mdt
 
-# Graphics (Vulkan)
+# Graphics (Vulkan) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib64/hw/vulkan.msmnile.so
 vendor/lib/hw/vulkan.msmnile.so
 
-# IO prefetcher
+# IO prefetcher - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
@@ -657,7 +657,7 @@ vendor/lib64/libqti-iopd.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
-# IPA firmware
+# IPA firmware - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
@@ -667,11 +667,11 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# IRQ balance
+# IRQ balance - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
-# Keymaster
+# Keymaster - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
@@ -685,7 +685,7 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
-# Listen
+# Listen - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
@@ -711,12 +711,12 @@ vendor/lib64/liblistenjni.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
 
-# Machine learning
+# Machine learning - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/npu_launcher
 vendor/lib/libnpu.so
 vendor/lib64/libnpu.so
 
-# Mirrorlink
+# Mirrorlink - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.mlshal@1.0-service
 vendor/etc/init/vendor.qti.hardware.mlshal@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.mlshal@1.0-impl.so
@@ -725,7 +725,7 @@ vendor/lib64/libmls_v4l2enc_vendor.so
 vendor/lib64/vendor.qti.hardware.mlshal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.mlshal@1.0.so
 
-# Media
+# Media - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 lib/libFileMux.so
 lib/libOmxMux.so
 lib/libmmosal.so
@@ -767,7 +767,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 
-# Media codecs
+# Media codecs - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
@@ -803,7 +803,7 @@ vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxWmaDec.so
 
-# Mlipay
+# Mlipay - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/lib64/libmlipay.so
@@ -812,7 +812,7 @@ system/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:vendor/lib64/vendor.xiaomi.har
 system/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 system/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
-# Neural networks
+# Neural networks - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
@@ -822,10 +822,10 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
-# NFC Firmware
+# NFC Firmware - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/lib/libsn100u_fw.so
 
-# Peripheral manager
+# Peripheral manager - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/bin/spdaemon
@@ -835,7 +835,7 @@ vendor/lib/libspcom.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
-# Perf
+# Perf - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -856,7 +856,7 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
-# Power-off alarm
+# Power-off alarm - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
@@ -864,7 +864,7 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
-# QMI
+# QMI - from LA.UM.8.9.r1-07700-SM6xx.0
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
@@ -902,7 +902,7 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
-# RIL
+# RIL - from LA.UM.8.9.r1-07700-SM6xx.0
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 -product/app/uceShimService/uceShimService.apk
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
@@ -914,7 +914,6 @@ product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
 product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
 product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar
 product/framework/qcrilhook.jar
-product/framework/qti-telephony-common.jar
 product/framework/QtiTelephonyServicelibrary.jar
 product/lib64/com.qualcomm.qti.imscmservice@1.0.so
 product/lib64/com.qualcomm.qti.imscmservice@2.0.so
@@ -1055,7 +1054,10 @@ vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
-# Secure element
+# RIL - from LA.UM.8.9.r1-05500-SM6xx.0
+product/framework/qti-telephony-common.jar
+
+# Secure element - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.secure_element@1.0-service
 vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
@@ -1064,7 +1066,7 @@ vendor/lib64/jcos_nq_client.so
 vendor/lib64/ls_nq_client.so
 vendor/lib64/se_nq_extn_client.so
 
-# Sensors
+# Sensors - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
@@ -1140,7 +1142,7 @@ vendor/lib64/libsnsdiaglog.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Sensor Service
+# Sensor Service - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
 lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
 lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
@@ -1158,7 +1160,7 @@ vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
 
-# Snapdragon Computer Vision Engine
+# Snapdragon Computer Vision Engine - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/scve/facereco/gModel.dat
 vendor/lib/libscveBlobDescriptor.so
 vendor/lib/libscveBlobDescriptor_stub.so
@@ -1196,18 +1198,18 @@ vendor/lib/libscveScan3D.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libfastcvdsp_stub.so
 
-# Soter
+# Soter - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 -vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# SSR
+# SSR - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 
-# Thermal engine
+# Thermal engine - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/thermal-engine
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
@@ -1225,14 +1227,14 @@ vendor/etc/thermal-youtobe.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
-# Time services
+# Time services - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
-# Trusted Execution Environment connector
+# Trusted Execution Environment connector - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
@@ -1246,28 +1248,28 @@ vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
-# Trusted User Interface
+# Trusted User Interface - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# Vibrator
+# Vibrator - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
 vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
 
-# Widevine DRM
+# Widevine DRM - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
-# WiFi
+# WiFi - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
-# WiFi Display
+# WiFi Display - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
