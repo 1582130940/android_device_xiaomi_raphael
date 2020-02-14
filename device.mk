@@ -166,14 +166,19 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.3-impl \
     android.hardware.graphics.composer@2.3-service \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    libdrm.vendor \
-    libgui_vendor \
+    gralloc.msmnile \
+    hwcomposer.msmnile \
+    libdisplayconfig \
+    libdisplayconfig.vendor \
     libtinyxml \
     libvulkan \
-    vendor.display.config@1.7
+    memtrack.msmnile \
+    vendor.qti.hardware.display.allocator-service
 
 # DRM
 PRODUCT_PACKAGES += \

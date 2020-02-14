@@ -10,26 +10,6 @@ ro.vendor.display.sensortype=2
 # Prop for AMOLED panel
 ro.display.type=oled
 
-# Displayfeature use poll to monitor backlight brightness
-ro.xiaomi.bl.poll=true
-
-# Support night mode 2.0
-ro.eyecare.brightness.threshold=11
-ro.eyecare.brightness.level=5
-ro.hist.brightness.threshold=7
-
-# White Point Calibration
-ro.whitepoint_calibration_enable=false
-
-# Property for display feature histogram
-ro.displayfeature.histogram.enable=true
-
-# Touchfeature
-ro.vendor.touchfeature.gamemode.enable=true
-
-# Property for liblight to get dc backlight threshold
-persist.displayfeature.dc_backlight.threshold=610
-
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
@@ -271,12 +251,6 @@ ro.location.osnlp.region.package=
 persist.vendor.camera.enableNCSService=true
 persist.vendor.camera.enableTOFInterface=true
 
-# System property for displayfeature hidl
-sys.displayfeature_hidl=true
-
-# System property for HBM mode
-sys.displayfeature.hbm.enable=true
-
 # System prop for Bluetooth TWS+ feature
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.connect.peer_earbud=true
@@ -292,10 +266,6 @@ persist.data.profile_update=true
 
 # Modem SAR backoff properties
 persist.radio.sar_sar_sensor=true
-
-# System prop for dc backlight
-persist.displayfeature.dc_backlight.enable=false
-persist.fod.modified.dc_status=false
 
 # Enable bg dexopt
 persist.bg.dexopt.enable=true

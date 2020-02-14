@@ -378,65 +378,23 @@ vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Display (SDM) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
-vendor/bin/hw/vendor.qti.hardware.display.allocator-service
-vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib/hw/gralloc.msmnile.so
-vendor/lib/hw/hwcomposer.msmnile.so
-vendor/lib/hw/memtrack.msmnile.so
-vendor/lib/libclient2slpi.notifier.so
-vendor/lib/libdisplaydebug.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgralloccore.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdutils.so
+# Display (SDM) - from LA.UM.8.9.r1-05500-SM6xx.0
 vendor/lib/libqseed3.so
-vendor/lib/libqservice.so
-vendor/lib/libqdMetaData.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-colormgr-algo.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
-vendor/lib/libsdmutils.so
 vendor/lib/libtinyxml2_1.so
-vendor/lib/vendor.display.config@1.8.so
-vendor/lib/vendor.qti.hardware.display.mapper@2.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib64/hw/gralloc.msmnile.so
-vendor/lib64/hw/hwcomposer.msmnile.so
-vendor/lib64/hw/memtrack.msmnile.so
-vendor/lib64/libclient2slpi.notifier.so
-vendor/lib64/libdisplaydebug.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libqservice.so
 vendor/lib64/libsdedrm.so
-vendor/lib64/libqdMetaData.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libtinyxml2_1.so
-vendor/lib64/vendor.display.config@1.8.so
-vendor/lib64/vendor.qti.hardware.display.allocator@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 
 # Display Calibration - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
@@ -445,18 +403,6 @@ vendor/etc/qdcm_calib_data_visionox_r66456_fhd_cmd_dsi_panel.xml
 # Display configs - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
-
-# Display Feature - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/lib/hw/displayfeature.default.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib/libdrm.so
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib64/hw/displayfeature.default.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/libdrm.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Display Postprocessing - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -597,7 +543,7 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
-# Graphics (Adreno) - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
+# Graphics (Adreno) - from LA.UM.8.9.r1-07700-SM6xx.0
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -1142,24 +1088,6 @@ vendor/lib64/libsnsdiaglog.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Sensor Service - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
-lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
-lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
-vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
-vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-
 # Snapdragon Computer Vision Engine - from raphael-user 10 QKQ1.190825.002 V11.0.5.0.QFKCNXM release-keys
 vendor/etc/scve/facereco/gModel.dat
 vendor/lib/libscveBlobDescriptor.so
@@ -1275,11 +1203,8 @@ etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
 -framework/WfdCommon.jar
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-lib/libdisplayconfig.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
-lib/libqdMetaData.so
-lib/libqdMetaData.system.so
 lib/libwfdaac.so
 lib/libwfdavenhancements.so
 lib/libwfdclient.so
@@ -1297,11 +1222,8 @@ lib/libwfduibcsinkinterface.so
 lib/libwfduibcsink.so
 lib/libwfduibcsrcinterface.so
 lib/libwfduibcsrc.so
-lib64/libdisplayconfig.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
-lib64/libqdMetaData.so
-lib64/libqdMetaData.system.so
 lib64/libwfdclient.so
 lib64/libwfdcommonutils.so
 lib64/libwfdconfigutils.so
@@ -1326,7 +1248,6 @@ vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/wfdconfig.xml
-vendor/lib/libdisplayconfig.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdaac_vendor.so
@@ -1351,6 +1272,5 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
-vendor/lib64/libdisplayconfig.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
