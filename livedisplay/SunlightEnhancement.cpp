@@ -41,7 +41,7 @@ static constexpr const char* kDispParamHbmOn = "0x20000";
 
 bool hasAmoledPanel() {
     std::string device = android::base::GetProperty("ro.product.device", "");
-    return (device == "raphael");
+    return (device == "raphael" || device == "raphaelin");
 }
 
 bool SunlightEnhancement::isSupported() {
