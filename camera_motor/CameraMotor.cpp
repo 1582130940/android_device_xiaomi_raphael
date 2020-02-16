@@ -20,7 +20,7 @@
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
 
-#include <misc/drv8846.h>
+#include "drv8846.h"
 
 #define CAMERA_ID_FRONT "1"
 #define MOTOR_DEV_PATH "/dev/drv8846_dev"
