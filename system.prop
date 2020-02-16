@@ -60,11 +60,11 @@ ro.telephony.default_cdma_sub=0
 #set uim type
 ril.subscription.types=RUIM
 
-#set ramdump restart_level,mask,need to disable ssr until mp release.
+#set ramdump restart_level
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 #enable ramdump
-persist.vendor.ssr.enable_ramdumps=0
+persist.vendor.ssr.enable_ramdumps=1
 
 #set ims related prop
 # MIUI DEL: START
@@ -161,6 +161,9 @@ persist.fuse_sdcard=true
 #system prop for Bluetooth SOC type
 vendor.bluetooth.soc=cherokee
 
+#system prop for bluetooth HFP inband ring tone feature
+persist.bluetooth.disableinbandringing=true
+
 #system prop for wipower support
 ro.bluetooth.emb_wp_mode=false
 ro.bluetooth.wipower=false
@@ -255,6 +258,8 @@ vendor.perf.iop_v3.enable=true
 vendor.perf.gestureflingboost.enable=true
 #Property to enable WorkloadClassifier
 vendor.perf.workloadclassifier.enable=true
+#Property to enable perf activity hints
+ro.vendor.at_library=libqti-at.so
 
 #Expose aux camera for below packages
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.qualcomm.saltproject2,com.miui.cit,com.android.camera
@@ -264,6 +269,9 @@ persist.vendor.overlay.izat.optin=rro
 
 #Property to enable Mag filter
 persist.vendor.sensors.enable.mag_filter=true
+
+# enable b-services aging propagation
+ro.vendor.qti.sys.fw.bservice_enable=true
 
 # ro.location properties below are used in conjunction
 # with NLP_MODE setting in /vendor/etc/izat.conf
@@ -294,11 +302,16 @@ persist.vendor.btstack.connect.peer_earbud=true
 #dualcam sat fallback setting
 persist.camera.sat.fallback.dist=40
 persist.camera.sat.fallback.dist.d=10
-persist.camera.sat.fallback.luxindex=310
+persist.camera.sat.fallback.luxindex=330
 persist.camera.sat.fallback.lux.d=50
 #allow update modem profile to satify single ip-type pdp request
 persist.data.profile_update=true
+#modem SAR backoff properties
+persist.radio.sar_sar_sensor=true
 
 #system prop for dc backlight
 persist.displayfeature.dc_backlight.enable=false
 persist.fod.modified.dc_status=false
+
+#enable bg dexopt
+persist.bg.dexopt.enable=true
