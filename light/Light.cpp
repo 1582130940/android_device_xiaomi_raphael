@@ -22,11 +22,8 @@
 
 #include <fstream>
 
-#define LEDS            "/sys/class/leds/"
-#define LCDBACKLIGHT            "/sys/class/backlight/"
-
-#define LCD_LED         LCDBACKLIGHT "panel0-backlight/"
-#define BLUE_LED       LEDS "green/"
+#define LCD_LED   "/sys/class/backlight/panel0-backlight/"
+#define GREEN_LED "/sys/class/leds/green/"
 
 #define BREATH          "breath"
 #define BRIGHTNESS      "brightness"
@@ -95,15 +92,15 @@ static void setNotification(const LightState& state) {
     uint32_t redBrightness = getScaledBrightness(state, MAX_LED_BRIGHTNESS);
 
     /* Disable breathing */
-    set(BLUE_LED BREATH, 0);
+    set(GREEN_LED BREATH, 0);
 
     if (state.flashMode == Flash::TIMED) {
         /* Enable breathing */
-        set(BLUE_LED BREATH, 1);
-        set(BLUE_LED DELAY_OFF, state.flashOnMs);
-	set(BLUE_LED DELAY_ON, state.flashOffMs);
+        set(GREEN_LED BREATH, 1);
+        set(GREEN_LED DELAY_OFF, state.flashOnMs);
+        set(GREEN_LED DELAY_ON, state.flashOffMs);
     } else {
-        set(BLUE_LED BRIGHTNESS, redBrightness);
+        set(GREEN_LEDBRIGHTNESS, redBrightness);
     }
 }
 
