@@ -26,13 +26,13 @@
 #define GREEN_LED "/sys/class/leds/green/"
 #define BLUE_LED  "/sys/class/leds/blue/"
 
-#define BREATH          "breath"
-#define BRIGHTNESS      "brightness"
-#define DELAY_OFF	    "delay_off"
-#define DELAY_ON 	    "delay_on"
+#define BREATH     "breath"
+#define BRIGHTNESS "brightness"
+#define DELAY_OFF  "delay_off"
+#define DELAY_ON   "delay_on"
 
-#define MAX_LED_BRIGHTNESS    255
-#define MAX_LCD_BRIGHTNESS    4095
+#define MAX_LED_BRIGHTNESS 255
+#define MAX_LCD_BRIGHTNESS 4095
 
 namespace {
 /*
