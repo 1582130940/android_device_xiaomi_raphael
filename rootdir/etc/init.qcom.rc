@@ -5,6 +5,8 @@ on init
     mount none /system/overlay/BluetoothResCommon.apk /vendor/overlay/BluetoothResCommon.apk bind
     mount none /system/etc/audio/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
     mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
+    mount none /system/etc/seccomp_policy/mediacodec.policy /vendor/etc/seccomp_policy/mediacodec.policy bind
+    mount none /system/etc/seccomp_policy/mediaextractor.policy /vendor/etc/seccomp_policy/mediaextractor.policy bind
 
 service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
     class hal
