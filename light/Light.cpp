@@ -89,7 +89,7 @@ static void handleBacklight(Type /* type */, const LightState& state) {
 }
 
 static void setNotification(const LightState& state) {
-    uint32_t redBrightness = getScaledBrightness(state, MAX_LED_BRIGHTNESS);
+    uint32_t greenBrightness = getScaledBrightness(state, MAX_LED_BRIGHTNESS);
 
     /* Disable breathing */
     set(GREEN_LED BREATH, 0);
@@ -100,7 +100,7 @@ static void setNotification(const LightState& state) {
         set(GREEN_LED DELAY_OFF, state.flashOnMs);
         set(GREEN_LED DELAY_ON, state.flashOffMs);
     } else {
-        set(GREEN_LEDBRIGHTNESS, redBrightness);
+        set(GREEN_LEDBRIGHTNESS, greenBrightness);
     }
 }
 
